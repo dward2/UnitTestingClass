@@ -14,7 +14,7 @@ def fever_detection(temperatures):
 
     largest_temp = max(temperatures)
     has_fever = False
-    fever_threshold = 100.5
+    fever_threshold = 101.5
     for temp in temperatures:
         if temp >= fever_threshold:
             has_fever = True
