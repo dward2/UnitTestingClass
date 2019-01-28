@@ -1,0 +1,4 @@
+name: testenv
+dependencies:
+  - pytest
+  - pytest-pep8
