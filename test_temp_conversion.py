@@ -13,7 +13,7 @@ def test_fever_detection():
     max_temp, has_fever = fever_detection(temperatures)
 
     assert max_temp == 101.0
-    assert has_fever is True
+    assert has_fever is False
 
 
 def test_fever_detection2():
